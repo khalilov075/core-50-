@@ -1,0 +1,524 @@
+body {
+    background: #3a4149;
+    font-family: 'Lato', sans-serif;
+   }
+   .topHedaer{
+    border-bottom: 2px solid;
+    padding-top: 10px;
+   }
+
+   #sidebarCollapse{
+    position: absolute;
+    left: 160px;
+    background: none;
+    font-size: 22px;
+    border: none;
+   }
+.navbar-nav{
+    padding-left: 120px;
+}
+.nav-item a{
+    color: white;
+}
+#sidebarRight{
+    background: none;
+    font-size: 22px;
+    border: none;
+}
+
+
+
+
+
+/* 
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 8px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+ .btn-info{
+    display: inline-block;
+   
+    background: none;
+    width: 50px;
+    border: none;
+    box-shadow: transparent;
+   }
+   .btn-info img{
+       width: 21px;
+   }
+   .btn-info:not(.nohover):hover {  
+    color:#ffffff !important;
+    background: transparent !important;
+    border:none;
+    outline: none;
+    box-shadow: transparent !important;
+   
+  }
+  .btn-info.focus,.btn-info:focus{
+    box-shadow: none;
+    border: none;
+  }
+  .base{
+      position: relative;
+      /* top: 24px; */
+  }
+  .buttons{
+      position: relative;
+      top: 0px;
+  }
+  .chartsli{
+      position: relative;
+      top: 0px;
+  }
+  .editors{
+      position: relative;
+      top: 0px;
+  }
+  .forms{
+      position: relative;
+      top: 0px;
+  }
+  .googleli{
+      position: relative;
+      top: 0px;
+  }
+  .icons{
+      position: relative;
+      top: 0px;
+  }
+  .notifications{
+      position: relative;
+      top: 0px;
+  }
+  .plugins{
+      position: relative;
+      top: 0px;
+  }
+  .tables{
+      position: relative;
+      top: 0px;
+  }
+  .widgetsli{
+      position: relative;
+      top: 0px;
+  }
+  .colorline{
+      bottom: 12px;
+      position: relative;
+  }
+  .typographyline{
+      position: relative;
+      bottom: 12px;
+  }
+  .dropicon{
+      width: 15px;
+      position: relative;
+      left: 6px;
+      bottom: 3px;
+  }
+  
+  .cursoricon{
+      width: 16px;
+      bottom: 3px;
+      left: 6px;
+      position: relative;
+  }
+  .ringicon{
+      width: 16px;
+      bottom: 3px;
+      left: 6px;
+      position: relative;
+  }
+  .pie-charticon{
+      width: 16px;
+      bottom: 3px;
+      left: 6px;
+      position: relative;
+  }
+  .noteicon{
+      width: 16px;
+      bottom: 3px;
+      left: 6px;
+      position: relative;
+  }
+  .calcicon{
+      width: 16px;
+      bottom: 3px;
+      left: 5px;
+      position: relative;
+  }
+  .staricon{
+      width: 16px;
+      bottom: 3px;
+      left: 5px;
+      position: relative;
+  }
+  .layericon{
+      width: 16px;
+      bottom: 3px;
+      left: 5px;
+      position: relative;
+  }
+  .circleredicon{
+      width: 12px;
+  }
+  
+  .htmlicon{
+      width: 18px;
+      left: 4px;
+      position: relative;
+  }
+  .staricon{
+      width: 16px;
+      bottom: 3px;
+      left: 6px;
+      position: relative;
+  }
+  .mapicon{
+      width: 16px;
+      bottom: 3px;
+      left: 6px;
+      position: relative;
+  }
+  .penicon{
+      width: 15px;
+      position: relative;
+      left: 6px;
+  }
+    #sidebar {
+      min-width: 250px;
+      max-width: 250px;
+      min-height: 100vh;
+      display: inline-block;
+  }
+    
+    .h3, h3 {
+      font-size: 14.9px;
+  }
+  .end1{
+      width: 198px;
+      height: 72px;
+      top: 60px;
+      background: rgb(58,65,73);
+      position: relative;
+  }
+  
+  
+  .end2{
+      width: 198px;
+      height: 72px;
+      top: 60px;
+      background: rgb(58,65,73);
+      position: relative;
+  }
+  
+  
+  .end2 .rightBar  .progress .progress-bar {
+      background:rgb(255,193,7);
+      width: 60%;
+  
+  }
+  
+  
+  .end3{
+      width: 198px;
+      height: 72px;
+      top: 60px;
+      background: rgb(58,65,73);
+      position: relative;
+  }
+  
+  .end3 .rightBar  .progress .progress-bar {
+      background:rgb(248,108,107);
+      width: 95%;
+  
+  }
+  
+  
+  .speedometer{
+      width: 16px;
+      bottom: 5px;
+      position: relative;
+  }
+    
+    #sidebar {
+        min-width: 200px;
+        max-width: 200px;
+    }
+    
+    #sidebar.active {
+        margin-left: -250px;
+    }
+    a[data-toggle="collapse"] {
+      position: relative;
+  }
+  
+  .dropdown-toggle::after {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+  }
+  .iconnew{
+      position: relative;
+      width: 40px;
+      height: 24px;
+      bottom: 15px;
+      left: 14px;
+  }
+  .logosvg{
+      width: 98px;
+      display: inline-block;
+      position: relative;
+      left: 25px;
+  }
+  .iconbar{
+      position: relative;
+      right: 86px;
+  }
+  
+  .flashicon{
+      width: 17px;
+      position: relative;
+      left: 4px;
+  }
+  
+  .listicon1{
+      width: 15px;
+      position: relative;
+      left: 5px;
+      bottom: 2px;
+  }
+  
+  p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1.7em;
+      color: #999;
+  }
+  
+  a, a:hover, a:focus {
+      color: inherit;
+      text-decoration: none;
+       transition: all 0.3s; 
+  }
+  .puzzleicon{
+      width: 18px;
+      bottom: 4px;
+      left: 6px;
+      position: relative;
+  }
+  #sidebar {
+      background: #3a4149;
+      position: absolute;
+      color: #fff;
+      overflow-y: scroll;
+      height: 855px;
+      overflow-x: hidden;
+       transition: all 0.3s; 
+      border-right: 2px solid black;
+  }
+  #sidebar::-webkit-scrollbar {
+     
+    width: 6px;
+    background: red;
+}
+#sidebar::-webkit-scrollbar-track {
+     
+    border-radius:5px; 
+    background:black ;
+}
+#sidebar::-webkit-scrollbar-thumb {
+    border-radius:5px; 
+    background:white ;
+}
+  
+  #sidebar .sidebar-header {
+  
+      padding: 15px;
+      background: #3a4149;
+  }
+  
+  /* .list-unstyled components{
+      display: inline-block;
+  } */
+  #sidebar ul.components {
+      padding: 20px 0;
+      border-bottom: 1px solid #3a4149;
+  }
+  
+  #sidebar ul p {
+      color: #fff;
+      padding: 10px;
+      position: relative;
+      bottom: 36px;
+      left: 1px;
+      font-size: 11px;
+  }
+  
+  #sidebar ul li a {
+      padding: 10px;
+      font-size: 14px;
+      display: block;
+  }
+  #sidebar ul li a:hover {
+      color: #3a4149;
+      background: #fff;
+  }
+  
+  #sidebar ul li.base > a, a[aria-expanded="true"] {
+      color: #fff;
+      background: #3a4149;
+      
+  }
+  ul ul a {
+      font-size: 0.9em !important;
+      padding-left: 30px !important;
+      background: #3a4149;
+      
+      position: relative;
+  }
+
+
+  #main{
+    padding-top: 15px;
+    position: relative;
+    background: rgb(47,53,58);
+    margin-left: 200px;
+    margin-right: 200px;
+    width: auto;
+    transition: all 0.3s; 
+}
+
+#main .topKvadr{
+height: 165px;
+background-color: red;
+padding-top: 10px;
+padding-left: 15px;
+}
+.topKvadr .qi-card{
+   
+    height: 82px;
+    padding-top: 20px;
+    
+}
+.text{
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+
+}
+.topKvadr .fas{
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+/* 
+.breadcrumb{
+
+    display: -webkit-inline-box;
+    color: white;
+    height: 40px;
+    background-color: #3a4149;
+    position: absolute;
+    margin-left: 160px;
+    border-bottom: 1px solid #23282c;
+}
+.breadcrumb span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.breadli{
+    margin-left: 611px;
+}
+.breadcrumb a{
+    color: #20a8d8;
+}
+.breadli .btn-groug{
+    margin-left: 165px;
+} */
+
+.zc-ref {
+    display: none;
+  } 
+
+
+
+
+  /* RIGHT SIDEBAR */
+
+
+  #rightSidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    display: inline-block;
+    float: right;
+    right: 0px;
+}
+
+
+
+#rightSidebar {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#rightSidebar.active {
+    margin-left: -250px;
+}
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+
+#rightSidebar {
+    background: #3a4149;
+    position: absolute;
+    color: #fff;
+    overflow-y: scroll;
+    height: 855px;
+    overflow-x: hidden;
+     transition: all 0.3s; 
+    border-right: 2px solid black;
+}
+
+#rightSidebar::-webkit-scrollbar {
+     
+    width: 6px;
+    background: red;
+}
+#rightSidebar::-webkit-scrollbar-track {
+     
+    border-radius:5px; 
+    background:black ;
+}
+#rightSidebar::-webkit-scrollbar-thumb {
+    border-radius:5px; 
+    background:white ;
+}
+  
+
